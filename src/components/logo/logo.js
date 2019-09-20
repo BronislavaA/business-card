@@ -6,6 +6,10 @@ const StyledLogo = styled.div`
   display: block;
   text-align: center;
   text-transform: uppercase;
+
+  h1, p {
+    margin: 0;
+  }
 `
 /**
  * @param props
@@ -16,7 +20,8 @@ const Logo = () => {
   return (
     <StyledLogo>
       <img src="images/logo192.png" alt="logo"/>
-      <h2>Company Name</h2>
+      <h1>Company Name</h1>
+      <p>Slogan for company here</p>
     </StyledLogo>
   )
 }

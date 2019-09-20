@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const StyledTitle = styled.div`
   flex: 45%;
+  margin-right: 20px;  
 
   h1, p {
     margin: 0;
@@ -18,8 +19,8 @@ const StyledTitle = styled.div`
 const Title = () => {
   return (
     <StyledTitle>
-      <h1>Name Surname</h1>
-      <p>Official position</p>
+      <h1>Evan Bradley</h1>
+      <p>Climate Change Analyst</p>
     </StyledTitle>
   )
 }

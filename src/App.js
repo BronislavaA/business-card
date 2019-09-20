@@ -38,22 +38,20 @@ const StyledCard = styled.div`
     backface-visibility: hidden;
     border: 1px solid rgba(0,0,0,0.4);
     align-items: center;
-    color: black;
+    color: white;
     display: flex;
-    background-color: white;
-    background: url(${props => props.backgroundImage}) no-repeat center fixed;
-    background-size: cover;
+    background: linear-gradient(110deg,#2060A9 40%,rgba(0, 0, 0, 0) 30%),radial-gradient(farthest-corner at 0% 0%,#236AB9 70%,#3377C6 70%);
   }
   
   .contact {
     flex: 45%;
+    margin-left: 20px;  
   }
   
   .divider { 
     flex: auto;
     overflow: hidden;
     height: 100%;
-    margin-left: 10px;  
   }
   
   .divider:after { 
@@ -80,7 +78,7 @@ const StyledCard = styled.div`
 const App = () => {
   return (
     <StyledApp>
-      <StyledCard backgroundImage={"images/background.jpg"}>
+      <StyledCard backgroundImage={"images/background2.png"}>
         <div className="card-inner">
           <div className="front">
             <Title/>
