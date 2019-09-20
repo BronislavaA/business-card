@@ -1,9 +1,6 @@
-import logo from './logo192.png';
-import address from './placeholder.png'
-import phone from './phone-call.png'
-import email from './envelope.png'
 import styled from 'styled-components'
 import React from 'react'
+import { Title, IconText, Logo } from './components'
 
 const StyledApp = styled.div`
   height: 100vh;
@@ -47,10 +44,6 @@ const StyledCard = styled.div`
     background: url(${props => props.backgroundImage}) no-repeat center fixed;
     background-size: cover;
   }
-
-  .title {
-    flex: 45%;
-  }
   
   .contact {
     flex: 45%;
@@ -73,30 +66,8 @@ const StyledCard = styled.div`
     box-shadow: 0 0 8px #00000057;
   }
   
-  .title h1, .title p {
-    margin: 0;
-    text-align: right;
-    text-transform: uppercase
-  }
-  
-  .icon-text img, .icon-text p {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  
-  .icon-text img {
-    margin: 0 5px;
-  }
-  
   .back {
     transform: rotateY(180deg);
-  }
-  
-  .card-logo {
-    margin: auto;
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
   }
 `;
 /**
@@ -109,34 +80,19 @@ const StyledCard = styled.div`
 const App = () => {
   return (
     <StyledApp>
-      <StyledCard backgroundImage={"background.jpg"}>
+      <StyledCard backgroundImage={"images/background.jpg"}>
         <div className="card-inner">
           <div className="front">
-            <div className="title">
-              <h1>Name Surname</h1>
-              <p>Official position</p>
-            </div>
+            <Title/>
             <div className="divider"></div>
             <div className="contact">
-              <div className="icon-text">
-                <img src={phone} alt="phone"/>
-                <p>+111 22 333</p>
-              </div>
-              <div className="icon-text">
-                <img src={address} alt="address"/>
-                <p>123 Your Street</p>
-              </div>
-              <div className="icon-text">
-                <img src={email} alt="email"/>
-                <p>youremail@gmail.com</p>
-              </div>
+              <IconText phone/>
+              <IconText address/>
+              <IconText email/>
             </div>
           </div>
           <div className="back">
-            <div className="card-logo">
-              <img src={logo} alt="logo"/>
-              <p className="company-name">Company Name</p>
-            </div>
+            <Logo/>
           </div>
         </div>
       </StyledCard>
