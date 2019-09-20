@@ -2,15 +2,18 @@
 
 exports[`renders IconText component 1`] = `
 <div
-  className="sc-bdVaJa jZxvCx"
+  className="sc-bdVaJa kaWZKk"
 >
   <div>
-    <img
-      alt="phone"
-      src="images/phone-call.png"
-    />
+    <i
+      class="material-icons"
+    >
+      phone
+    </i>
     <p>
-      +111 22 333
+      <b>
+        +477 3086 7958
+      </b>
     </p>
   </div>
 </div>

@@ -2,13 +2,13 @@
 
 exports[`renders Title component 1`] = `
 <div
-  className="sc-bdVaJa efyGNU"
+  className="sc-bdVaJa kxiiak"
 >
   <h1>
-    Name Surname
+    Evan Bradley
   </h1>
   <p>
-    Official position
+    Climate Change Analyst
   </p>
 </div>
 `;

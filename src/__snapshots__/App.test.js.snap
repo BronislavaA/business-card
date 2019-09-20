@@ -5,7 +5,7 @@ exports[`renders App without crashing 1`] = `
   className="sc-bxivhb dkntGu"
 >
   <div
-    className="sc-ifAKCX dQTsQX"
+    className="sc-ifAKCX ffXpLR"
   >
     <div
       className="card-inner"
@@ -14,13 +14,13 @@ exports[`renders App without crashing 1`] = `
         className="front"
       >
         <div
-          className="sc-bdVaJa efyGNU"
+          className="sc-bdVaJa kxiiak"
         >
           <h1>
-            Name Surname
+            Evan Bradley
           </h1>
           <p>
-            Official position
+            Climate Change Analyst
           </p>
         </div>
         <div
@@ -30,41 +30,50 @@ exports[`renders App without crashing 1`] = `
           className="contact"
         >
           <div
-            className="sc-bwzfXH iuPFbB"
+            className="sc-bwzfXH bwoXnz"
           >
             <div>
-              <img
-                alt="phone"
-                src="images/phone-call.png"
-              />
+              <i
+                class="material-icons"
+              >
+                phone
+              </i>
               <p>
-                +111 22 333
+                <b>
+                  +477 3086 7958
+                </b>
               </p>
             </div>
           </div>
           <div
-            className="sc-bwzfXH iuPFbB"
+            className="sc-bwzfXH bwoXnz"
           >
             <div>
-              <img
-                alt="address"
-                src="images/placeholder.png"
-              />
+              <i
+                class="material-icons"
+              >
+                room
+              </i>
               <p>
-                123 Your Street
+                <b>
+                  72 Boar Lane, GL53 4TY
+                </b>
               </p>
             </div>
           </div>
           <div
-            className="sc-bwzfXH iuPFbB"
+            className="sc-bwzfXH bwoXnz"
           >
             <div>
-              <img
-                alt="email"
-                src="images/envelope.png"
-              />
+              <i
+                class="material-icons"
+              >
+                mail_outline
+              </i>
               <p>
-                youremail@gmail.com
+                <b>
+                  evan.bradley@gmail.com
+                </b>
               </p>
             </div>
           </div>
@@ -74,15 +83,18 @@ exports[`renders App without crashing 1`] = `
         className="back"
       >
         <div
-          className="sc-htpNat eVAbDZ"
+          className="sc-htpNat hOvDPK"
         >
           <img
             alt="logo"
             src="images/logo192.png"
           />
-          <h2>
+          <h1>
             Company Name
-          </h2>
+          </h1>
+          <p>
+            Slogan for company here
+          </p>
         </div>
       </div>
     </div>
