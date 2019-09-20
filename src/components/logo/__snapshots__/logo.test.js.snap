@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Logo component 1`] = `
+<div
+  className="sc-bdVaJa bQioAf"
+>
+  <img
+    alt="logo"
+    src="images/logo192.png"
+  />
+  <h2>
+    Company Name
+  </h2>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders IconText component 1`] = `
+<div
+  className="sc-bdVaJa jZxvCx"
+>
+  <div>
+    <img
+      alt="phone"
+      src="images/phone-call.png"
+    />
+    <p>
+      +111 22 333
+    </p>
+  </div>
+</div>
+`;

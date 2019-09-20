@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App without crashing 1`] = `
+<div
+  className="sc-bxivhb dkntGu"
+>
+  <div
+    className="sc-ifAKCX dQTsQX"
+  >
+    <div
+      className="card-inner"
+    >
+      <div
+        className="front"
+      >
+        <div
+          className="sc-bdVaJa efyGNU"
+        >
+          <h1>
+            Name Surname
+          </h1>
+          <p>
+            Official position
+          </p>
+        </div>
+        <div
+          className="divider"
+        />
+        <div
+          className="contact"
+        >
+          <div
+            className="sc-bwzfXH iuPFbB"
+          >
+            <div>
+              <img
+                alt="phone"
+                src="images/phone-call.png"
+              />
+              <p>
+                +111 22 333
+              </p>
+            </div>
+          </div>
+          <div
+            className="sc-bwzfXH iuPFbB"
+          >
+            <div>
+              <img
+                alt="address"
+                src="images/placeholder.png"
+              />
+              <p>
+                123 Your Street
+              </p>
+            </div>
+          </div>
+          <div
+            className="sc-bwzfXH iuPFbB"
+          >
+            <div>
+              <img
+                alt="email"
+                src="images/envelope.png"
+              />
+              <p>
+                youremail@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="back"
+      >
+        <div
+          className="sc-htpNat eVAbDZ"
+        >
+          <img
+            alt="logo"
+            src="images/logo192.png"
+          />
+          <h2>
+            Company Name
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

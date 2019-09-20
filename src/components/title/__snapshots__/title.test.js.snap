@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Title component 1`] = `
+<div
+  className="sc-bdVaJa efyGNU"
+>
+  <h1>
+    Name Surname
+  </h1>
+  <p>
+    Official position
+  </p>
+</div>
+`;
